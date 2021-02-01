@@ -19,6 +19,10 @@ else if(randomNumber2 > randomNumber1){
 
 document.querySelector("h1").innerHTML=" Player 2 Won";
 }
+else if(randomNumber1 || randomNumber2 ===0){
+    document.querySelector("h1").innerHTML=" 🏁Match Draw";
+}
+  
 else {
   document.querySelector("h1").innerHTML=" 🏁Match Draw";
 }
